@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Element selector for body */
+body {
+  font-family: Arial, sans-serif; /* Required font-family */
+  margin: 0;
+  padding: 0;
+}
+
+/* Class selector (example for floating an element) */
+.float-right {
+  float: right; /* float property */
+  margin: 0 0 1rem 1rem;
+}
+
+/* ID selector (example for absolute positioning) */
+#special-note {
+  position: absolute; /* absolute positioning */
+  top: 100px;
+  left: 50px;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border: 1px solid #999;
+}
+
+/* Relative positioning example */
+.relative-box {
+  position: relative; /* relative positioning */
+  top: 20px;
+  left: 10px;
+  background-color: #ccc;
+  padding: 1rem;
+}
+
+/* :hover pseudo-class for nav links */
+nav ul li a:hover {
+  color: red; /* Example hover effect */
+  text-decoration: underline;
+} 
